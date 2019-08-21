@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="build/css/style.css">
+	<link href="fontawesome-free-5.10.1-web/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icons//favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icons//favicon-16x16.png">
+	<link rel="manifest" href="icons//site.webmanifest">
+	<link rel="mask-icon" href="icons//safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<title>Document</title>
+</head>
+<body>
+	<h1 class="headline-none"></h1>
+	<header class="header">
+		<div class="header__logo-phone">
+			<a class="link-logo" href="#"><img class="image-logo" src="src/img/logo.jpg" alt="logo"></a>
+			<div class="logo-phone__phone">
+				<div class="header-phone__image">
+				<i class="fas fa-phone phone__header-image-phone fa-2x" ></i>
+				</div>
+				<div class="header-phone__text">
+					<p class="header-phone__text-top">8(800)<span class="header-phone__text-top-size">555-555</span></p>
+					<a class="header-phone__text-bottom" href="#">callback</a>
+				</div>
+			</div>
+		</div>
+		<ul class="header__list">
+			<li class="header-list__item"><a class="header-list__link" href="#">main</a></li>
+			<li class="header-list__item"><a class="header-list__link" href="#">service</a></li>
+			<li class="header-list__item"><a class="header-list__link" href="#">about</a></li>
+			<li class="header-list__item"><a class="header-list__link" href="#">news</a></li>
+			<li class="header-list__item"><a class="header-list__link" href="#">contact</a></li>
+		</ul>
+	</header>
+	<div class="wrap-slider">
+		<div class="slider">
+			<div class="slider__slide">
+				<div class="slide__sidebar-left">
+					<h2 class="slide-sidebar__headline">About <span class="slide-sidebar__headline-color">company</span></h2>
+					<p class="slide-sidebar__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+					<button class="slide-sidebar-left__button" type="button" >details</button>
+				</div>
+				<div class="slide__sidebar-right">
+					<img class="slide-image" src="src/img/slide.jpg" alt="">
+				</div>
+			</div>
+			<div class="slider__slide">
+				<div class="slide__sidebar-left">
+					<h2 class="slide-sidebar__headline">About <span class="slide-sidebar__headline-color">company</span></h2>
+					<p class="slide-sidebar__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+					<button class="slide-sidebar-left__button" type="button" >details</button>
+				</div>
+				<div class="slide__sidebar-right">
+					<img class="slide-image" src="src/img/slide.jpg" alt="">
+				</div>
+			</div>
+			<div class="slider__slide">
+				<div class="slide__sidebar-left">
+					<h2 class="slide-sidebar__headline">About <span class="slide-sidebar__headline-color">company</span></h2>
+					<p class="slide-sidebar__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+					<button class="slide-sidebar-left__button" type="button" >details</button>
+				</div>
+				<div class="slide__sidebar-right">
+					<img class="slide-image" src="src/img/slide.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="slider-dots">
+			<span class="prev" onclick="minusSlide()">&#10094;</span>
+			<span class="slider-dots_item" onclick="currentSlide(1)"></span>
+		  	<span class="slider-dots_item" onclick="currentSlide(2)"></span>
+		  	<span class="slider-dots_item" onclick="currentSlide(3)"></span>
+		  	<span class="next" onclick="plusSlide()">&#10095;</span>
+		</div>
+	</div>
+	<div class="WhatWeDo">
+		<h2 class="WhatWeDo__headline">What we <span class="WhatWeDo-headline-color">do</span></h2>
+		<div class="WhatWeDo__wrap">
+			<div class="WhatWeDo-wrap__block">
+				<img src="src/img/Без имени-3.png" alt="" class="WhatWeDo-wrap__image WhatWeDo-wrap__image-one">
+				<h3 class="WhatWeDo-wrap-block__headline WhatWeDo-wrap-block__headline-one">Fully Responsive</h3>
+				<p class="WhatWeDo-wrap-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+			</div>
+			<div class="WhatWeDo-wrap__block">
+				<img src="src/img/Без имени-1.png" alt="" class="WhatWeDo-wrap__image WhatWeDo-wrap__image-two">
+				<h3 class="WhatWeDo-wrap-block__headline WhatWeDo-wrap-block__headline-two">Easy to Customize</h3>
+				<p class="WhatWeDo-wrap-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+			</div>
+			<div class="WhatWeDo-wrap__block">
+				<img src="src/img/Без имени-2.png" alt="" class="WhatWeDo-wrap__image WhatWeDo-wrap__image-three">
+				<h3 class="WhatWeDo-wrap-block__headline WhatWeDo-wrap-block__headline-three">Direct Support</h3>
+				<p class="WhatWeDo-wrap-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="content__aside">
+			<h2 class="content-aside__headline">Take a sneak peek at our<br> videos, for once.</h2>
+			<p class="content-aside__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores explicabo beatae omnis modi laboriosam? Totam quae,  ab, vero tempora minus ipsam at dolores dolor, obcaecati  deleniti provident pariatur ex modi aperiam. Quae, itaque. <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores explicabo beatae omnis modi laboriosam? Totam quae,  ab, vero tempora minus ipsam at dolores dolor, obcaecati  deleniti provident pariatur ex modi aperiam. Quae, itaque.</p>
+		</div>
+		<iframe width="537" height="302" class="video" src="https://www.youtube.com/embed/dsHWWuWnuMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="OurCatalog">
+		<h2 class="OurCatalog__headline">Our <span class="OurCatalog__headline-color">catalog</span></h2>
+		<div class="OurCatalog__wrap-product">
+			<div class="wrap-product__product">
+				<img class="product__image" src="src/img/work.png" alt="">
+				<p class="product__text">articul: 123456</p>
+				<h3 class="product__headline">Title product</h3>
+				<div class="product__cart">
+					<button type="button" class="arrow-minus arrow-minus-block-one">-</button>
+				  <input class="quantity-num quantity-num-block-one" type="number" value="1" />
+				  <button type="button" class="arrow-plus arrow-plus-block-one">+</button>
+					<button class="product__button">add to cart</button>
+				</div>
+			</div>
+			<div class="wrap-product__product">
+				<img class="product__image" src="src/img/work.png" alt="">
+				<p class="product__text">articul: 123456</p>
+				<h3 class="product__headline">Title product</h3>
+				<div class="product__cart">
+					<button type="button" class="arrow-minus arrow-minus-block-two">-</button>
+					<input class="quantity-num quantity-num-block-two" type="number" value="1" />
+				  <button type="button" class="arrow-plus arrow-plus-block-two">+</button>
+					<button class="product__button">add to cart</button>
+				</div>
+			</div>
+			<div class="wrap-product__product">
+				<img class="product__image" src="src/img/work.png" alt="">
+				<p class="product__text">articul: 123456</p>
+				<h3 class="product__headline">Title product</h3>
+				<div class="product__cart">
+					<button type="button" class="arrow-minus arrow-minus-block-three">-</button>
+				  <input class="quantity-num quantity-num-block-three" type="number" value="1" />
+				  <button type="button" class="arrow-plus arrow-plus-block-three">+</button>
+					<button class="product__button">add to cart</button>
+				</div>
+			</div>
+			<div class="wrap-product__product">
+				<img class="product__image" src="src/img/work.png" alt="">
+				<p class="product__text">articul: 123456</p>
+				<h3 class="product__headline">Title product</h3>
+				<div class="product__cart">
+					<button type="button" class="arrow-minus arrow-minus-block-four">-</button>
+				  <input class="quantity-num quantity-num-block-four" type="number" value="1" />
+				  <button type="button" class="arrow-plus arrow-plus-block-four">+</button>
+					<button class="product__button">add to cart</button>
+				</div>
+			</div>
+		</div>
+		<button class="OurCatalog__button" type="button" name="button">view all</button>
+	</div>
+	<div class="CallBackForm">
+		<h2 class="CallBackForm__headline">Call back <span class="CallBackForm__headline-color">form</span></h2>
+		<div class="CallBackForm__wrap-form">
+			<div class="wrap-form__UserName">
+				<i class="fas fa-user fa-lg "></i>
+				<input class="CallBackForm__UserName" type="text" placeholder="your name">
+			</div>
+			<div class="wrap-form__form-middle">
+				<div class="form-middle__block-left">
+					<i class="fas fa-phone fa-lg form-middle__phone-image" ></i>
+					<input class="form-middle__phone" type="number" placeholder="your phone">
+				</div>
+				<div class="form-middle__block-right">
+					<i class="fas fa-envelope fa-lg form-middle__envelope"></i>
+					<input class="form-middle__email" type="text" placeholder="your e-mail">
+				</div>
+			</div>
+			<div class="wrap-form__bottom">
+				<label>
+					<input class="wrap-form-bottom__checkbox" type="checkbox">
+					<span class="pseudocheckbox">I agree to the terms of the <span class="pseudocheckbox-border">privacy policy</span></span>
+				</label>
+				<button class="wrap-form-bottom__button">send message</button>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer__wrap">
+			<ul class="footer-wrap__list-left">
+				<h2 class="footer__headline-left">Information</h2>
+				<li class="item"><a class="footer-wrap-list-left__link" href="#">news</a></li>
+				<li class="item"><a class="footer-wrap-list-left__link" href="#">about</a></li>
+				<li class="item"><a class="footer-wrap-list-left__link" href="#">contact</a></li>
+				<li class="item"><a class="footer-wrap-list-left__link" href="#">project</a></li>
+			</ul>
+			<div class="footer-wrap__middle">
+				<a class="footer__link-logo" href="#">
+					<img class="footer__image-logo" src="src/img/logo.jpg" alt="logo">
+				</a>
+				<p class="footer-wrap-middle__copyright">copyright<br> © all rights reserved</p>
+			</div>
+			<ul class="footer-wrap__list-right">
+				<h2 class="footer-wrap__headline-right">contact</h2>
+				<li class="list-right__item"><i class="fas fa-map-marker-alt footer-wrap__icon"></i>Omsk, str. Street, 124</li>
+				<li class="list-right__item"><i class="fas fa-phone footer-wrap__icon" ></i>8(800)555-555</li>
+				<li class="list-right__item"><i class="fas fa-envelope footer-wrap__icon"></i>info@yourdomain.ru</li>
+			</ul>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="src/js/script.js"></script>
+</body>
+</html>
